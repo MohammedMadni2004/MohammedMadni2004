@@ -25,7 +25,7 @@ function App() {
       <h3>Your todos are as follows:</h3>
       <div>{todo}</div>
       <div>existing todos </div>
-      <TodosDisc todos={existing}/>
+      <TodosDisc todos={existing} setTodos={setExisting}/>
         
 
       
